@@ -1,6 +1,6 @@
 class Timer:
 
-    def __init__(self, name_func):
+    def __init__(self, name_func: function):
         self.func = name_func
 
     def __call__(self, *args, **kwargs):
