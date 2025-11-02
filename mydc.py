@@ -11,6 +11,6 @@ class Timer:
     
 
 @Timer
-def my_func(a, b):
+def my_func(a: int, b: int) -> int:
     return a + b
 
