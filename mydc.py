@@ -14,3 +14,6 @@ class Timer:
 def my_func(a: int, b: int) -> int:
     return a + b
 
+
+def my_func_two(a: int | float, b: int | float, c: float | int) -> float | int:
+    return a + b + c
